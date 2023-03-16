@@ -1,0 +1,52 @@
+body {
+  background-color: honeydew;
+}
+h1 {
+	color: darkgreen;
+	text-align: center;
+}
+p {
+	color: darkolivegreen;
+}
+a {
+	color: darkgreen;
+}
+a:hover {
+	color:yellowgreen;
+}
+button:hover {
+	color: yellowgreen;
+}
+img:hover {
+	transform: scale(1.16);
+}
+
+
+
+#container {
+	display: grid;
+}
+header {
+	grid-column: 10/13;
+	grid-row: 1;
+	background-color: lavenderblush;
+	text-align: center;
+}
+section {
+	grid-column: 5/13;
+	grid-row: 2;
+	text-align: center;
+}
+aside {
+	grid-column: 1/4;
+	grid-row: 2;
+}
+footer {
+	grid-column: 1/3;
+	grid-row: 3;
+}
+form {
+	grid-column:6/13;
+	grid-row2;
+}
+	
